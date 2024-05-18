@@ -1,0 +1,130 @@
+@import url(TELA-DE-LOGIN-CADASTRO-FRONT-END.jpg);
+
+body {
+    background-image: url(TELA-DE-LOGIN-CADASTRO-FRONT-END.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.card {
+    background-color: #ffffff90;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 6px 3px 1px 0px #00000080;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a610ab;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #dfa8e1;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #dfa8e1;
+
+}
+
+.label-float label {
+    color: #a610ab;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3 ease-out;
+
+}
+
+.label-float input:focus+label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #f3cdf4;
+
+}
+
+button {
+    background-color: transparent;
+    border-color: #dfa8e1;
+    color: #a610ab;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+
+
+}
+
+button:hover {
+    background-color: #a610ab;
+    color: #dfa8e1;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15rem;
+    border-color: #a610ab;
+
+}
+
+p {
+    color: #a610ab;
+    font-size: 15px;
+    text-align: center;
+
+}
+a{
+    color: #dfa8e1;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .4s ease-out;
+
+
+}
+a:hover{
+    color: #a610ab;
+}
